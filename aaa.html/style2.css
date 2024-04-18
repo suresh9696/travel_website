@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    height: 100vh;
+    align-content: center;
+    background-color: rgb(65, 65, 179);
+}
+section{
+    width: 500px;
+    height: 500px;
+    border: 2px solid;
+    
+}
+
+img{
+    width: 500px;
+    height: 150px;
+}
+.vv{
+    margin: 60px;
+}
+
+ 
+ #q{
+     margin-top: 25px;
+     padding-left: 5px;
+     background-color: transparent;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     border-bottom: 1px solid rgb(54, 54, 54);
+     color:grey;
+     width: 360px;
+ 
+ }
+ 
+ 
+ 
+ input::placeholder,select{
+     font-weight: 600;
+     color: rgb(104, 102, 102);
+ 
+ }
+ 
+ input:focus,select:focus{
+     outline: none;
+ }
+ 
+ button{
+    margin-top: 20px;
+    background-color: rgb(61, 199, 59);
+    
+    color: white;
+    padding: 5px 15px;
+}
+
+button:hover{
+    background-color: rgb(100, 133, 100);
+
+}
+
+
+i{
+    color: grey;
+   margin-left:-20px;
+}
+#r{
+    margin-top: 25px;
+     padding-left: 5px;
+     background-color: transparent;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     border-bottom: 1px solid rgb(54, 54, 54);
+     color: grey;
+     width:180px;
+}
+ #y{
+    margin-top: 25px;
+     padding-left: 5px;
+     background-color: transparent;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     border-bottom: 1px solid rgb(54, 54, 54);
+     color:GREY;
+     width:360px;
+}
+select{
+    
+        margin-top: 25px;
+         padding-left:10px;
+         background-color: transparent;
+         border-top: none;
+         border-left: none;
+         border-right: none;
+         border-bottom: 1px solid rgb(54, 54, 54);
+         color:gray;
+        width: 170px;
+    }
+    #GG{
+        margin-top: 25px;
+        padding-left: 5px;
+        background-color: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid rgb(54, 54, 54);
+        color:grey;
+        width: 360px;
+    
+    }
+    section{
+        background-color: white;
+    }
+    
+
+
+ 

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+ }
+ section{
+    display: flex;
+    margin-left: 400px;
+    width: 800px;
+    border: 2px solid;
+    height: 1260px;
+ }
+ body{
+ 
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+ }
+ .form{
+    margin-top: 50px;
+    margin-left: 110px;
+ }
+ .sure{
+    width: 25px;
+    margin-left: -10px;
+ }
+ #ln{
+    margin-left: 246px;
+ }
+ #ush{
+    height: 22px;
+    width:230px;
+ }
+ #ushh{
+    height: 22px;
+    width: 230px;
+    margin-left: 80px;
+ }
+ #mm{
+    width: 30px;
+    border-right: none;
+    margin-left: 50px;
+ 
+ }
+ #dd{
+    width:30px;
+    margin-left: -5px;
+ }
+ #no{
+  width: 30px;
+  border-left: none;
+  margin-left: -5px;
+ }
+ #hai{
+    height: 22px;
+    width:200px;
+    margin-left: 94px;
+ }
+ #jj{
+    margin-left: 88px;
+ }
+ #jjj{
+    margin-left: 18px;
+ 
+ }
+ #kr{
+    height: 22px;
+    width:425px;
+    margin-left: 20px;
+ }
+ #kn{
+    height: 22px;
+    width:565px;
+    border-bottom: none;
+ }
+ #kn1{
+    height: 22px;
+    width:565px;
+    border-top: none;
+ }
+ #one{
+    text-align: center;
+    color: #003051;
+    margin-top: -20px;
+ }
+ .two{
+    width: 340px;
+ }
+ .three
+ {
+    width: 340px;
+ }
+ #date{
+    margin-top: 40px;
+    margin-left: 390px;
+    font-weight: 900;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    padding-left: 40px;
+    width: 150px;
+    padding-top: 10px;
+ }
+ .sign{
+    padding-right:35px
+ }

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>19</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <style>
+        section {
+            width: 900px;
+            height: 600px;
+            border: 2px solid;
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: center; 
+            grid-template-rows: 140px;
+            align-items: center;
+
+        }
+span{
+    color: red;
+}
+        .title {
+            text-align: center;
+            grid-column: 1/3;
+            grid-row: 1/2;
+         display: grid;
+         justify-content: center;
+
+        }
+        .title p{
+            margin-top: -20px;
+            width: 500px;
+        }
+
+        .map{
+            grid-column: 1/3;
+            grid-row: 2/3;
+            display: grid;
+            justify-content: center;
+            
+        }
+
+        iframe{
+            margin-top: -10px;
+        }
+
+        .location,.email,.phone{
+            grid-column: 1/2;
+            display: grid;
+            grid-template-columns: 100px 200px;
+            
+           
+        }
+
+        i{
+            position: relative;
+            top: 20px;
+            background-color: rgb(247, 185, 185);
+            padding: 10px 10px;
+            border-radius: 50%;
+            color: rgb(205, 14, 14);
+
+        }
+
+        .icons{
+        margin-right: 20px;
+        margin-left: 45px;
+        }
+
+        .data{
+            text-align: left;
+        }
+
+        .data p{
+            margin-top: -18px;
+            font-size: 10px;
+            font-weight: 100;
+            color: rgb(140, 140, 142);
+        }
+
+        form{
+            grid-column: 2/3;
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 1rem;
+            margin-right: 50px;
+        }
+        input,textarea{
+            padding: 10px;
+            width: 250px;
+        }
+
+        .name{
+            grid-column: 1/2;
+        }
+        .email{
+            grid-column: 2/3;
+        }
+        .subject,textarea{
+            grid-column: 1/3;
+            width:540px;
+
+        }
+
+.btn{
+    grid-column: 1/3;
+    display: grid;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button{
+    background-color: rgb(201, 9, 9);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+
+}
+    </style>
+
+
+
+
+    <section>
+        <div class="title">
+            <h1>Contact <span>Us</span></h1>
+
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quibusdam? Nam laboriosam officia
+                temporibus.</p>
+        </div>
+
+<!-- map -->
+        <div class="map">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15220.301727835333!2d78.39872005!3d17.50391225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1704684437195!5m2!1sen!2sin"
+                width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+<!-- logos -->
+        <div class="logo">
+            <div class="location">
+
+                <div class="icons">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="data">
+                <h4>Location</h4>
+                <p>KPhb hyderabad</p>
+            </div>
+            </div>
+            <div class="email">
+                <div class="icons">
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="data">
+
+                <h4>Email</h4>
+                <p>123@gmail.com</p>
+            </div>
+            </div>
+
+            <div class="phone">
+                <div class="icons">
+
+                <i class="fa-solid fa-mobile"></i>
+
+                </div>
+                <div class="data">
+                    <h4>Phone</h4>
+                    <p>123456789</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- form -->
+
+
+        <div class="form">
+            <form action="">
+                <input type="text" placeholder="your Name" class="name">
+            
+                <input type="text" placeholder="your Email" class="email">
+                
+                <input type="text" placeholder="Subject" class="subject">
+              
+                <textarea placeholder="Message">Message</textarea>
+                  
+            <div class="btn">
+                    <button>Send Message</button>
+
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>

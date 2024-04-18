@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        // a(1,(result,error)=>{
+        //     if(!error){
+        //         console.log(result)
+        //         b(result,(result1,error)=>{
+        //             if(!error){
+        //                 console.log(result1)
+        //               c(result1,(result2,error)=>{
+        //                     if(!error){
+        //                         console.log(result2)
+        //                     }
+        //               })
+        //             }
+        //         })
+        //     }
+        // })
+        // function a(value,callback){
+        //     callback(value,false)
+        // }
+        // function b(value,callback){
+        //     setTimeout(()=>{
+        //     callback(value+13,false)
+        //     },5666)
+        // }
+        // function c(value,callback){
+        //     callback(value+129,false)
+        // } -->
+
+
+
+        // promises....
+
+        // function a(value,error){
+        //     return new Promise((resolve, reject) => {
+        //         if (!error) {
+        //             resolve(value+2)
+        //         }else{
+        //             reject("not completed")
+        //         }
+        //     })
+        // }
+        // function b(value,error){
+        //     return new Promise((resolve, reject) => {
+        //         if (!error) {
+        //             resolve(value+2)
+        //         }else{
+        //             reject("not completed")
+        //         }
+        //     })
+        // }
+        // function c(value,error){
+        //     return new Promise((resolve, reject) => {
+        //         if (!error) {
+        //             resolve(value+2)
+        //         }else{
+        //             reject("not completed")
+        //         }
+        //     })
+        // }
+
+        // a(70,false)
+        // //.then is using to store the result
+        // .then(result =>b(result,false))
+        // .then(result1 =>c(result1,false))
+        // .then(result2=> console.log(result2))
+
+        //async& awiat
+
+        // async function suresh() {
+        //     let suri = await a(30,false)
+        //     let sure = await b(suri,false)
+        //     let suresh = await c(sure,true)
+        //     .catch(e => console.log(e))
+        //     console.log(suresh)
+            
+            
+
+        // }
+        // suresh()
+
+
+        fetch('https://dummyjson.com/products/1')
+.then(res => res.json())
+.then ((result) => { console.log(result)
+
+        div.innerHTML = result.map((e)=>{
+           
+
+        })
+})
+            
+
+    </script>
+    
+</body>
+</html>

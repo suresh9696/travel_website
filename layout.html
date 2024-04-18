@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+             display: grid;
+             grid-template-columns: auto auto auto auto;   
+             grid-auto-rows: 120px 120px 120px 120px 120px;    
+             gap: 1rem;
+        }
+           
+        div{
+           
+            background-color: rgb(220, 132, 31);
+            text-align: center;
+            font-size: 30px;
+            color: blue;
+
+        }
+        .div1{
+            grid-column: 1/5;
+            grid-row: 1/2;
+        }
+        .div2{
+            grid-column: 1/5;
+            
+        }
+        .div3{
+            grid-column: 1/2;
+            grid-row: 3/5;
+        }
+        .div7{
+            grid-column: 2/4;
+            grid-row: 3/4;
+        }
+        .div4{
+            grid-column: 2/4;
+            grid-row: 4/5;
+        }
+        .div5{
+            grid-column: 4/5;
+            grid-row: 3/5;
+        }.div6{
+            grid-column: 1/5;
+            grid-row: 5/6;
+        }
+    </style>
+</head>
+<body>
+    <section>
+<div class="div1">header</div>
+<div class="div2"> nw</div>
+<div class="div3">aside</div>
+<div class="div4">article</div>
+<div class="div7">section</div>
+<div class="div5">aside</div>
+<div class="div6">footer</div>
+    </section>
+</body>
+</html>

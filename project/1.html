@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <style>
+        input{
+            padding-left: 10px;
+            margin-left: 50px;
+            
+        }
+        body{
+            background-color: aqua;
+            display: flex;
+           justify-content:center ;
+           align-items: center;
+           height: 100vh;
+            
+        }
+       
+        section{
+            
+            text-align: center;
+           width: 500px;
+           height: 300px;
+           background-color: aliceblue;
+           border: 2px solid rgb(33, 33, 32);
+          
+         
+           
+
+        }
+        #button{
+                  /* margin-bottom: -200px;
+                  margin-left: 150px; */
+                  background-color: rgb(255, 0, 0);
+                  padding: 5px;
+                  border-radius: 5px;
+                  margin-right: 35px;
+                  color: bisque;
+                
+        }
+        #button:hover{
+            background-color: rgb(6, 153, 26);
+        }
+        #tt{
+            
+            margin-left: 100px;
+        }
+        #ttt{
+            margin-left:78px;
+        }
+        #tttt{
+            margin-left:20px;
+        }
+        #t{
+            margin-left:44px;
+        }
+        h1{
+           text-align: center;
+        }
+       
+        
+    </style>
+   
+    <section id="ok">
+    
+        <form name="registration" class="registartion-form" >
+            <h1>LOG IN PAGE</h1>
+           
+                <label for="" id="">Name </label>
+                <label for="" id="tt">:</label>
+                <input type="text" id="user-name" name="name"><br><br>
+              
+           
+                <label for="">Password </label>
+                <label for="" id="ttt">:</label>
+                <input type="password" id="user-password" name="Password"><br><br>
+                
+           
+                <label for=""> Confirm Password </label>
+                <label for="" id="tttt">:</label>
+                <input type="password" id="confirm-password" name="Confirm"><br><br>
+            
+                <label for="">Phone Number </label>
+                <label for="" id="t">:</label>
+                <input type="tel" id="phone-number" name="phone"><br><br>
+            
+                <input type="submit" name="button" id="button">
+           
+        </form>
+       
+    </section>
+
+
+
+
+
+
+
+    <script>
+
+    let name = document.querySelector('#user-name')
+        let password = document.querySelector('#user-password')
+        let error = document.getElementById('error')
+        let confirm = document.querySelector('#confirm-password')
+        let phone=document.querySelector('#phone-number')
+        let btn = document.getElementById('button')
+
+
+btn.onclick = formValidation
+
+
+       function formValidation()
+       {
+    
+
+             if(name.value.length == 0)
+             {
+                 alert("fill the charcters ")
+              }
+            //  if(name.value=['1','2','3','4','5','6','7','8','9','0'])
+            //  {
+            //      alert('fill the charcters only')
+            //  }       
+             if(password.value.length < 6)
+            {  
+                alert("Password must be at least 6 characters long.");  
+                
+             if(password.value!= ['@', '$', '.', '#', '!', '%', '*', '?', '&', '^'])
+                {
+                  alert('password should atleat one special characters')
+                }
+            }
+        if(password.value !== confirm.value)
+        {
+                   alert('password and confirm password must should be same')
+        }
+        if(phone.value.length!=10)
+        {
+              alert("given phone number is wrong")
+        }
+    }
+    
+       </script>
+       </body>
+</html>

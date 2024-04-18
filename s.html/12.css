@@ -1,0 +1,84 @@
+img{
+    display: flex;
+    position: absolute;
+    width: 350px;
+    height: 200px;
+}
+section{
+    border: 2px solid black;
+   
+}
+.form{
+    text-align: left;
+    margin-top: 40px;
+  padding-bottom: 40px;
+  font-size: large;
+  margin-left: 490px;
+} 
+body{
+
+    width: 900px;
+    justify-content: center;
+    height: 160px;
+    align-items: center;
+    margin-right: -10px;
+} 
+h1{
+    padding-top: 10px;
+    color:  rgb(10, 184, 149);
+text-align: center;
+}
+.king{
+    padding-left: 35px;
+}
+#ok{
+    text-align: center;
+}
+#kk{
+    text-align: center;
+    border: 2px solid white;
+}
+#yy{
+    text-align: center;
+}
+#dee{
+    width: 720px;
+}
+#rrr{
+    margin-right: 15px;
+    width: 130px;
+}
+#date{
+    margin-right: 10px;
+}
+#gra{
+    margin-right: 15px;
+    width: 168px;
+}
+#lll{
+    width: 635px;
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#rose{
+    margin-left: 15px;
+}
+hr{
+    border-color:rgb(10, 184, 149);
+    height: 2px;
+    background-color:  rgb(10, 184, 149);
+}
+.don{
+    position: absolute;
+    padding-top: 26px;
+}
+.dons{
+    position: absolute;
+    padding-top: 5px;
+}
+.god{
+    width: 328px;
+}

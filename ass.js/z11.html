@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    // Print the Odd numbers from the given range (Start and End value must take from the user)
+
+    var startRange = +prompt("Enter the start value");
+        var endRange = +prompt("Enter the end value");
+
+        if(startRange > endRange){
+        document.write("Invalid input")
+          }
+
+      for(let i=startRange; i<=endRange ; i++){
+        if(i%2!=0 && startRange<=endRange)
+         document.write(i +" ");
+      }
+   </script>
+</body>
+</html>

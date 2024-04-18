@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+}
+h1{
+   
+    text-align:center;
+    font-size:30px;
+    font: 2em sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 60vh;
+   
+
+}
+.cl{
+    margin-top: 200px;
+    /* margin-left: -20px; */
+}
+
+#vertical-line{
+    width: 2px;
+    height: 575px;
+    margin-left:30px;
+    margin-top: 210px;
+    background-color:silver;
+}
+.class{
+    position:relative;
+    padding: 10px;
+    
+}
+.prefix{
+    margin-left: 100px;
+    width:200px;
+    height:30px;
+}
+#fn{
+    margin-left: 105px;
+    width: 90px;
+    height: 25px;
+}
+#ln{
+    margin-left: 10px;
+    width: 90px;
+    height: 25px;
+    margin-top: 10px;
+}
+#preference{
+    margin-left: 20px;
+    margin-top: 20px;
+    width:200px;
+    height:30px;
+}
+#email{
+    margin-left: 105px;
+    margin-top:20px;
+    width:200px;
+    height:30px;
+}
+#work{
+    margin-left: 65px;
+    margin-top: 20px;
+    width:200px;
+    height:30px;
+}
+.cp{
+    margin-left: 73px;
+    margin-top: 20px;
+    width:200px;
+    height:30px;
+}
+.jobtitle{
+    margin-left: 88px;
+    margin-top: 20px;
+    width:200px;
+    height:30px;
+}
+.com{
+    margin-left: 80px;
+    margin-top: 20px;
+    width:200px;
+    height:30px;
+}
+.text{
+   
+    margin-top: 10px;
+    width:345px;
+    height:30px;
+}
+label{
+    margin-top: 20px;
+}
+.web{
+    width: 300px;
+    height: 25px;
+}
+.webb{
+    width: 300px;
+    height: 40px;
+}
+.flex{
+    margin-left: 40px;
+    margin-top: 210px;
+
+}
+.pop{
+    margin-left: 30px;
+}
+::placeholder{
+    text-align: center;
+}

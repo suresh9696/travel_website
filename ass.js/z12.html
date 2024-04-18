@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Print the Number Which are divisible both 3 and 6 for given range (Start and End value must be taken from the user)
+
+    let startRange = +prompt("Enter the start range value");
+    let endRange = +prompt("Enter the end range value");
+
+    if(startRange > endRange)
+        document.write("Invalid input ");
+
+      for(let i=startRange; i<=endRange; i++){
+        if(i%3==0 && i%6==0)
+          document.write(i +" ");
+      }
+    </script>
+</body>
+</html>

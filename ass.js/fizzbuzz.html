@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+        var b= +prompt('enter number')
+        for( var a=1;a<=b;a++)
+        {
+             if(a%3==0 && a%5==0)
+            {
+                document.write(' quizz&buzz'+'')
+            }
+            else if(a%3==0){
+                document.write('quizz'+'')
+            }
+            else if(a%5==0){
+                document.write('buzz'+'')
+            }
+            else{
+                document.write(a +'')
+            }
+           
+        }
+    </script>
+</body>
+</html>

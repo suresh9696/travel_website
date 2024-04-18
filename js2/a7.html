@@ -1,0 +1,30 @@
+<!-- 7.find the average of the odd elements in the array -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+            var a =[76,88,99,77,66,55,445,876,456,753]
+        var sum =0;
+        var y;
+        let count=0;
+        for(i=0;i<=a.length;i++)
+        {
+            if((a[i]>0) &&(a[i]%2!==0))
+            {
+                sum = sum+a[i];
+                
+                count++
+            }
+        }
+        document.write(sum + "  ")
+         y = sum/count
+          document.write(y)
+    </script>
+</body>
+</html>

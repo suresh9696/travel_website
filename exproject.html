@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proj</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+    }
+    body{
+        background-color:rgb(0, 195, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    section{
+    background-color:white;
+    padding: 10px;
+    width: 500px;
+      
+    }
+    input{
+        padding: 10px;
+        width: 370px;
+        margin-left: 5px;
+        font-size: 21px;
+      
+    }
+    button{
+        padding: 10px;
+        margin-left: -5px;
+        font-size: 21px;
+   
+    
+       
+
+    }
+    .data{
+        text-align: center;
+    }
+    h1,h2,h3{
+        margin-top: 20px;
+    }
+    img{
+        margin-top: 20px;
+    }
+</style>
+<body>
+
+    <section>
+        
+    <input type="text" placeholder="Enter Location">
+    <button>get data</button>
+    <div class="data">
+    <img src="data:image/jpeg;base64,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" alt="">
+    <h1><span id="temp">25</span>&deg;C</h1>
+    <h3>Cloudy</h3>
+    <h2>Hyderabad</h2>
+</div>
+</section>
+<script>
+    let inp= document.querySelector('input')
+    let button= document.querySelector('button')
+    let temperature = document.querySelector('span')
+   
+    let h2 = document.querySelector('h2')
+    let h3 = document.querySelector('h3')
+    let apikey='8ce452aa691f1d1a43258cc5624c9287';
+    button.onclick =function(){
+        if (inp.value=== ''){
+            alert("Please enter the location ")
+        }
+        else{
+            let url= `https://api.openweathermap.org/data/2.5/weather?q=${inp.value}&appid=${apikey}`
+            fetch(url).then(response =>response.json()).then(result=>{
+                // console.log(result)
+            
+            let{name}=result
+            let{temp}=result.main
+            let{description}=result.weather[0] 
+               console.log(name,temp,description)
+            temperature.innerText =Math.round(temp-273)     
+             
+            h2.innerText= name
+            h3.innerHTML=description
+        })
+            
+        }
+    }
+   
+</script>
+</body>
+</html>

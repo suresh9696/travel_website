@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    
+    font-family:poppins,sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: url("https://www.thoughtco.com/thmb/PCVPjqDcfiY4az_kycvn-EJA-e8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/swarthmore-college-Eric-Behrens-flickr-5706ffe35f9b581408d48cb3.jpg");
+   
+}
+section
+{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+    height: 500px;
+    width: 350px;
+   padding: 50px;
+   margin-left: -700px;
+}
+input{
+    width: 350px;
+    font-weight: lighter;
+    font-size:x-small;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+   margin-top: 20px;
+   margin-bottom: 20px;
+outline: none;
+color: gray;
+}
+
+
+select{
+    width: 360px;
+    font-weight: lighter;
+    font-size:x-small;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+   margin-top: 20px;
+   margin-bottom: 20px;
+outline: none;
+color:gray;
+}
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: aqua;
+}
+#k{
+    margin-left: -170px;
+}
+label{
+    margin-left: -170px;
+    font-size: small;
+
+}
+b{
+font-size: smaller;
+}
